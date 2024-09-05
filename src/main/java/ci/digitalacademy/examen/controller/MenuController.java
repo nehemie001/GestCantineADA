@@ -40,7 +40,7 @@ public class MenuController {
     @GetMapping("/add")
     public String showAddPlatPage(Model model) {
         log.debug("Request to show add menu forms");
-        model.addAttribute("menu", new Plat());
+        model.addAttribute("menu", new Menu());
         return "menus/forms";
     }
 
