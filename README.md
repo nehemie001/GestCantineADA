@@ -31,11 +31,7 @@ Cette application est une solution web intuitive permettant aux utilisateurs de 
 
 3. Configurez les paramètres de la base de données dans `application.properties` :
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/nom_de_la_base
-   spring.datasource.username=nom_utilisateur
-   spring.datasource.password=mot_de_passe
-   spring.jpa.hibernate.ddl-auto=update
-   ```
+   spring.datasource.url=jdbc:mysql://localhost:3306/cantine_db
 
 4. Lancez l'application :
    ```bash
@@ -47,7 +43,7 @@ Cette application est une solution web intuitive permettant aux utilisateurs de 
 Une fois l'application lancée, accédez à l'interface web via l'URL suivante :
 
 ```
-http://localhost:8080
+http://localhost:8089
 ```
 
 ### Ajouter un plat
